@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".View.SplashScreenFragment1"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:weightSum="6"
+    >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_astronaut"
+            android:layout_weight="4"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Be Astronaut "
+            android:textSize="29sp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@android:color/white"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowColor="#FFCB57"
+            android:shadowRadius="15"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="This app make for discovering Persons and make a new Friends , Like Astronaut ."
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowColor="#FFCB57"
+        android:shadowRadius="15"
+        />
+
+</LinearLayout>
